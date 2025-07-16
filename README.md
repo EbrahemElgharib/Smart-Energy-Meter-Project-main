@@ -1,8 +1,10 @@
-<img width="1048" height="558" alt="image" src="https://github.com/user-attachments/assets/0e3c879e-14b0-42fe-a0ff-df412220d28b" /># Smart-Energy-Meter-Project-main
+
 Smart Energy Meter Project
+
 This project simulates a Smart Energy Meter System using Proteus for circuit design and Virtuino for real-time data monitoring. The goal is to measure electrical current and voltage, calculate power consumption, and log the data into an Excel sheet for further analysis and record-keeping.
 
 ✅ Features
+
 ⚡ Measures voltage, current, and power in real time
 
 📲 Sends data from Arduino to Virtuino via serial communication (or virtual COM)
@@ -23,6 +25,7 @@ This project simulates a Smart Energy Meter System using Proteus for circuit des
 📈 Excel Logging: Using PLX-DAQ or custom Python script for serial-to-Excel communication
 
 📁 Project Components
+
 Arduino Code (.ino) for reading sensor data (voltage, current)
 
 Proteus simulation file (.pdsprj)
@@ -32,9 +35,11 @@ Virtuino setup (.csv or screen config, if applicable)
 Excel data logger interface
 
 🚀 How It Works
+
 Simulate circuit in Proteus with sensors like ACS712 (current) and voltage dividers.
 
 Arduino calculates real-time values of voltage, current, and power.
+
 Data is sent via serial communication.
 
 Virtuino visualizes the readings.
